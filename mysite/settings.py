@@ -31,7 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'template',
+    'home',
     'webexelt',
     'django.contrib.admin',
     'django.contrib.auth',
