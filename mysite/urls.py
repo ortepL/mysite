@@ -20,5 +20,5 @@ from django.conf.urls import include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('webexelt/', include('webexelt.urls')),
-    path('^$', include('template.urls')),
+    path('', include('template.urls')),
 ]
