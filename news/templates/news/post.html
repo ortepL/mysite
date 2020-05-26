@@ -1,0 +1,7 @@
+{% extends "new-index.html" %}
+
+{% block content %}
+    <h1 class="text-info">{{artticles.tiitle}}</h1>
+    <h6 class="text-info">PUBLLIK: {{artticles.date|date:"Y-m-d v H:i:s"}}</h6>
+    <p>{{artticles.post|safe|linebreaks}}</p>
+{% endblock %}
