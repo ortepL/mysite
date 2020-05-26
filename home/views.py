@@ -6,3 +6,6 @@ def index(requst):
 
 def contact(requst):
     return render(requst, 'basic.html', {'values': ['Звоните мне', '(067) xxx-xx-xx']})
+
+def posts_list(requst):
+    return render(requst, 'blog/index.html')
